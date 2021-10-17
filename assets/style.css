@@ -1,0 +1,77 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=60"); width:90%;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left:2px;
+    padding-right: 2px;
+   background-color:floralwhite;
+}
+
+header h1 {
+            font-weight: bold;
+            font-size: 40px;
+            margin:0;
+            
+        }
+
+        /*this is to keep ul elements with h1*/
+
+
+    ul
+    {
+        width:100%;
+        padding: 0 0 2px;
+        margin:0;
+        display:flex;
+        flex-wrap: wrap;
+       justify-content: space-between;
+    }
+    ul li{
+        font-size: 30px;
+        list-style: none;
+        padding: 0px 5px 0px 5px;
+    }
+
+nav {
+    margin: 7px 0;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+h2 {
+            font-size: 30px;
+        
+        }
+.About-me{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.Title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.About-me p{
+    margin-left: 30px;
+}
+.port-img {
+    width: 250px;
+    height: 200px;
+}
+
+@media (max-width:600px){
+    body{
+        display: block;
+    }
+    header {
+        display: block;
+    }
+};
