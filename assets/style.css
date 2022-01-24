@@ -9,7 +9,7 @@ header{
     flex-wrap: wrap;
     padding-left:4px;
     padding-right: 4px;
-   background-color:mediumpurple;
+   background-color: none;
 }
 p{
     font-size: 17px;
@@ -18,7 +18,7 @@ p{
 header h1 {
             font-weight: bold;
             font-size: 40px;
-            margin: 5px;;
+            margin: 5px;
             
         }
 
@@ -46,6 +46,7 @@ nav {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    font-display:
 }
 
 
@@ -58,6 +59,8 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .Title{
     font-size: 30px;
